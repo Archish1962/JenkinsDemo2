@@ -11,13 +11,13 @@ def binary_search(arr, s):
             high = mid - 1
         else:
             return mid
-    return 0
+    return -1
 
 arr = [1, 2, 3, 4]
-s = 2
+s = 7
 result = binary_search(arr, s)
 
-if result != 0:
+if result != -1:
     print("Element is present in the array")
 else:
     print("Element is not present in array")
