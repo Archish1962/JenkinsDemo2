@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat 'C:/Users/BNMIT/AppData/Local/Programs/Python/Python314/python bin_search.py'
+        bat 'C:/Users/student/AppData/Roaming/Python/Python313/python bin_search.py'
       }
     }
 
